@@ -1,0 +1,19 @@
+# Setup
+title:        "xR-EgoPose: Egocentric 3D Human Pose from an HMD Camera"
+tagline:      Denis Tome - Patrick Peluse - Lourdes Agapito - Hernan Badino
+conference:   "International Conference on Computer Vision (ICCV) 2019"
+baseurl:      "/xR-EgoPose"
+paginate:     1
+locale:       "en"
+
+# About/contact
+author:
+  name:       Denis Tome
+  url:        "https://denistome.github.io" 
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown

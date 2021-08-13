@@ -1,0 +1,87 @@
+I"T<p><img src="/xR-EgoPose/assets/teaser.png" /></p>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>We propose a unified formulation for the problem of 3D human pose estimation from a single raw RGB
+image that reasons jointly about 2D joint estimation and 3D pose reconstruction to improve both
+tasks. We take an integrated approach that fuses probabilistic knowledge of 3D human pose with a
+multi-stage CNN architecture and uses the knowledge of plausible 3D landmark locations to refine
+the search for better 2D locations. The entire process is trained end-to-end, is extremely
+efficient and obtains state-of-the-art results on Human3.6M outperforming previous approaches both
+on 2D and 3D errors.</p>
+
+<h2 id="examples-on-mpii-dataset">Examples on MPII dataset</h2>
+
+<table cellspacing="0" cellpadding="0">
+	<tr>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/1_042500241.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/0001.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/3_003836155.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/0003.jpg" class="img_table" /></td>
+	</tr>
+	<tr>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/28_027792201.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/img0028.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/32_056733993.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/img0032.jpg" class="img_table" /></td>
+	</tr>
+	<tr>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/38_023374079.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/0038.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/42_071336755.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/img0042.jpg" class="img_table" /></td>
+	</tr>
+	<tr>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/50_083578744.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/0050.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/84_086634144.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/0084.jpg" class="img_table" /></td>
+	</tr>
+	<tr>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/16_013562662.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/img0016.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/34_076858133.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/0034.jpg" class="img_table" /></td>
+	</tr>
+	<tr>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/45_044908796.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/img0045.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/92_093682246.jpg" class="img_table" /></td>
+		<td style="width:25%;" align="center"><img src="/xR-EgoPose/assets/MPII/0092.jpg" class="img_table" /></td>
+	</tr>
+</table>
+
+<h2 id="videos">Videos</h2>
+
+<video controls="" autoplay="" muted="" class="video" width="100%">
+	<source src="/xR-EgoPose/assets/media/video_pipeline.mp4" type="video/mp4" />
+</video>
+
+<video controls="" autoplay="" muted="" class="video" width="100%">
+	<source src="/xR-EgoPose/assets/media/video_results.mp4" type="video/mp4" />
+</video>
+
+<h2 id="bibtex">BibTeX</h2>
+
+<figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@InProceedings</span><span class="p">{</span><span class="nl">Tome_2017_CVPR</span><span class="p">,</span>
+	<span class="na">author</span> <span class="p">=</span> <span class="s">{Tome, Denis and Russell, Chris and Agapito, Lourdes}</span><span class="p">,</span>
+	<span class="na">title</span> <span class="p">=</span> <span class="s">{Lifting From the Deep: Convolutional 3D Pose Estimation From a Single Image}</span><span class="p">,</span>
+	<span class="na">booktitle</span> <span class="p">=</span> <span class="s">{The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}</span><span class="p">,</span>
+	<span class="na">month</span> <span class="p">=</span> <span class="s">{July}</span><span class="p">,</span>
+	<span class="na">year</span> <span class="p">=</span> <span class="s">{2017}</span>
+<span class="p">}</span></code></pre></figure>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>This work has been supported by the <a href="https://secondhands.eu/">SecondHands project</a>, funded from the
+EU Horizon 2020 Research and Innovation programme under grant agreement No 643950.</p>
+
+<div style="text-align: center;">
+	<div class="aknowledgments_img">
+	<img src="/xR-EgoPose/assets/Second-hands-logo_final_sml.jpg" />
+	</div>
+	<div class="aknowledgments_img">
+	<img src="/xR-EgoPose/assets/eu-flag.gif" />
+	</div>
+</div>
+:ET
