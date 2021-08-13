@@ -64,7 +64,7 @@ according to the available training data.
 ## Videos
 
 <video controls="" autoplay="" muted="" class="video" width="100%">
-	<source src="{{"/assets/media/presentation.mp4" | prepend: site.baseurl }}" type="video/mp4">
+	<source src="{{"/assets/media/video.mp4" | prepend: site.baseurl }}" type="video/mp4">
 </video>
 
 ## Results
